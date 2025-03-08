@@ -1,0 +1,13 @@
+/* External CSS - Applies styles to buttons */
+.styled-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+}

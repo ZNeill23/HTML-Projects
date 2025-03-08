@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 6: HTML Styles</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .profile-card {
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-card h2 {
+            color: #007BFF;
+        }
+    </style>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" type="text/css" href="lesson6_styles.css">
+</head>
+<body>
+
+    <h1>HTML Styles and CSS</h1>
+    <p>In this lesson, we explore different ways to apply styles in HTML.</p>
+
+    <!-- Profile Card with Inline CSS -->
+    <div class="profile-card">
+        <h2 style="color: green;">John Doe</h2>
+        <p style="font-style: italic;">Web Developer</p>
+        <button class="styled-button">Follow</button>
+    </div>
+
+</body>
+</html>
